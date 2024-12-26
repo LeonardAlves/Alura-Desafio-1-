@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Akwendje - Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fefefe;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #1c1c1e;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            background-image: url('background_anansi.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin: 40px 0 20px;
+            text-align: center;
+            color: #ff8c00;
+        }
+
+        .section-content {
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .grid-item {
+            padding: 15px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #1c1c1e;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .highlight {
+            color: #ff8c00;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festival Akwendje 2025</h1>
+        <p>CELEBRAR OS LIVROS *LER *OUVIR *FALAR *CRIAR *ABRAÇAR</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 class="section-title">O Que É o Festival?</h2>
+            <p class="section-content">O <span class="highlight">Festival Akwendje</span> é um evento literário infantojuvenil que busca valorizar a literatura enquanto ferramenta artística e de conhecimento. Voltado a crianças e jovens, especialmente em situações socioeconômicas vulneráveis, o festival incentiva a leitura, o pensamento crítico e o desenvolvimento educacional e cultural.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Objetivos</h2>
+            <div class="grid">
+                <div class="grid-item">Cuidado com a Infância e Juventude</div>
+                <div class="grid-item">Preservação e Valorização da Cultura Oral e Escrita</div>
+                <div class="grid-item">Inclusão Social e Promoção de Oportunidades</div>
+                <div class="grid-item">Descentralização do Conhecimento e Criatividade</div>
+                <div class="grid-item">Apoio a Educadores e Professores</div>
+                <div class="grid-item">Formação de Novos Leitores e Criadores</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Atividades Realizadas</h2>
+            <p class="section-content">As atividades incluem oficinas de contação de histórias, criação de livros artesanais, roteiros e podcasts, expressão artística e debates. Também haverá rodas de conversa com educadores e capacitações voltadas à contação de histórias e mediação cultural.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contato: <span class="highlight">+351 935 670 738</span> | celestinobastos@bantumen.com</p>
+        <p>&copy; 2025 Festival Akwendje. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
